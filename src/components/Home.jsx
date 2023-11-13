@@ -39,8 +39,6 @@ export default function Home() {
 
 <CardGroup className=''>
       <div>
-        
-        
       <div class="auto-group-qse5-jeH">
         <p class="car-repair-servicing-made-easy-tGH">
         Car Repair &amp; Servicing
