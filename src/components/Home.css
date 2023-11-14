@@ -48,8 +48,8 @@
       }
       .group-icon {
         position: absolute;
-        height: 1.42%;
-        width: 6.1%;
+        height: 60px;
+        width: 60px;
         top: 0.35%;
         right: 92.51%;
         bottom: 98.23%;
@@ -570,9 +570,9 @@
       }
       .what-vehicle-type {
         position: absolute;
-        top: 0;
+        top: 5px;
         left: 0;
-        font-size: var(--font-size-2xl);
+        font-size: 18px;
         text-align: left;
       }
       .group-child11,
@@ -801,8 +801,8 @@
       .inspection-features {
         position: absolute;
         top: 32px;
-        left: 16px;
-        font-size: 23px;
+        left: 5px;
+        font-size: 18px;
       }
       .basic,
       .engineers-report,
@@ -836,7 +836,7 @@
       }
       .price {
         top: 142px;
-        font-size: 38px;
+        font-size: 18px;
         font-weight: 900;
       }
       .approximate-inspection-time {
@@ -1755,17 +1755,17 @@
       .rectangle-parent2 {
         position: absolute;
         top: 1127px;
-        left: 85px;
-        width: 854px;
-        height: 2006px;
+        left: 5px;
+        width: 100%;
+        height: 2016px;
         text-align: center;
         font-size: var(--font-size-mid);
       }
       .what-our-customers {
         position: absolute;
         top: 3193px;
-        left: 225px;
-        font-size: var(--font-size-23xl);
+        left: 25px;
+        font-size: 26px;
         font-weight: 600;
         text-align: center;
       }
@@ -1774,10 +1774,13 @@
       .image-21-icon {
         position: absolute;
         top: 15px;
-        left: 341px;
+        /* left: 341px; */
+        left: 150px;
         border-radius: var(--br-7xs);
-        width: 216px;
-        height: 233px;
+        /* width: 216px; */
+        width: 90px;
+        /* height: 233px; */
+        height: 101px;
         object-fit: cover;
       }
       .image-19-icon,
@@ -1785,25 +1788,29 @@
         left: 14px;
       }
       .image-21-icon {
-        left: 658px;
+        left: 278px;
       }
       .image-22,
       .image-23,
       .image-24 {
         position: absolute;
         top: 0;
-        left: 671.6px;
+        /* left: 671.6px; */
+        left: 290px;
         border-radius: var(--br-7xs);
         border: 1px solid var(--color-white);
         box-sizing: border-box;
-        width: 220.7px;
-        height: 238.1px;
+        /* width: 220.7px;
+        height: 238.1px; */
+        width: 95.7px;
+        height: 108.1px;
         transform: rotate(7.15deg);
         transform-origin: 0 0;
       }
       .image-23,
       .image-24 {
-        left: 355.6px;
+        /* left: 355.6px; */
+        left: 160px;
       }
       .image-24 {
         left: 29.6px;
@@ -1811,28 +1818,29 @@
       .image-20-parent {
         position: absolute;
         top: 3268px;
-        left: 67px;
-        width: 890.7px;
-        height: 263.7px;
+        left: 20px;
+        /* width: 890.7px;
+        height: 263.7px; */
       }
       .book-a-mechanic {
         position: absolute;
-        top: 3594px;
-        left: 232px;
-        font-size: var(--font-size-23xl);
+        top: 3424px;
+        left: 15px;
+        font-size: 22px;
         text-align: center;
       }
       .get-an-instant-container {
         position: absolute;
-        top: 3659px;
-        left: 113px;
+        top: 3459px;
+        left: 15px;
         font-weight: 300;
+        font-size: 15px;
         text-align: center;
       }
       .car-alt {
         position: absolute;
-        top: 3611px;
-        left: 500px;
+        top: 3470px;
+        left: 0px;
         background-color: transparent;
         width: 25px;
         height: 25px;
@@ -1845,7 +1853,7 @@
         border-radius: var(--br-5xs);
         border: 1.5px solid var(--color-white);
         box-sizing: border-box;
-        width: 448px;
+        width: 248px;
         height: 52px;
       }
       .vector-icon4 {
@@ -1864,7 +1872,8 @@
         position: absolute;
         top: 12px;
         left: 59px;
-        font-weight: 300;
+        font-weight: 600;
+        font-size: 12px;
       }
       .rectangle-parent4 {
         position: absolute;
@@ -1884,7 +1893,7 @@
       .rectangle-parent5 {
         position: absolute;
         top: 0;
-        left: 482px;
+        left: 282px;
         width: 448px;
         height: 52px;
       }
@@ -1894,15 +1903,15 @@
         text-align: center;
       }
       .group-parent2 {
-        top: 3719px;
+        top: 3549px;
         left: 47px;
         width: 930px;
         height: 52px;
         color: var(--color-gray-300);
       }
       .i-dont-know {
-        top: 3807px;
-        left: 348px;
+        top: 3667px;
+        left: 20px;
         font-weight: 300;
       }
       .group-child125 {
@@ -1922,8 +1931,8 @@
       }
       .rectangle-parent6 {
         position: absolute;
-        top: 3856px;
-        left: 335px;
+        top: 3716px;
+        left: 20px;
         width: 355px;
         height: 54px;
         text-align: center;
@@ -1945,8 +1954,8 @@
       }
       .vetted-mechanics-save-up-to-50-parent {
         position: absolute;
-        top: 3934px;
-        left: 324px;
+        top: 3794px;
+        left: 20px;
         width: 377px;
         height: 17px;
         text-align: center;
@@ -1963,11 +1972,11 @@
       .group-icon2 {
         position: absolute;
         height: 42.6%;
-        width: 9.62%;
+        width: 30.62%;
         top: 0;
-        right: 90.41%;
+        /* right: 90.41%; */
         bottom: 57.4%;
-        left: -0.03%;
+        left: 2px;
         max-width: 100%;
         overflow: hidden;
         max-height: 100%;
