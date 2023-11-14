@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700;900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-lato: Lato;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-8xl: 27px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-3xs: 10px;
+  --font-size-2xl: 21px;
+  --font-size-23xl: 42px;
+  --font-size-mid: 17px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: rgba(255, 255, 255, 0.3);
+  --color-gray-200: rgba(255, 255, 255, 0.51);
+  --color-gray-300: rgba(255, 255, 255, 0.5);
+  --color-blue: #721cff;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+  --br-7xs: 6px;
+  --br-smi: 13px;
+}
 
 
 code {
@@ -80,6 +115,10 @@ code {
   object-fit: cover;
   vertical-align: top;
 }
+.image-right{
+  position: absolute;
+  
+}
 
 /* new css */
 
@@ -101,7 +140,7 @@ code {
   flex-direction: column;
   flex-shrink: 0;
 }
-.car-repair-servicing-made-easy-tGH {
+/* .car-repair-servicing-made-easy-tGH {
   margin-bottom: 0.9rem;
   max-width: 56.7rem;
   font-size: 5.2rem;
@@ -110,18 +149,24 @@ code {
   color: #ffffff;
   font-family: Inter, 'Source Sans Pro';
   flex-shrink: 0;
-}
-/* .car-repair-servicing-made-easy-tGH {
+} */
+.car-repair-servicing-made-easy-tGH {
+  position: absolute;
   margin-bottom: 0.9rem;
+  margin-left: 2rem;
   max-width: 56.7rem;
-  font-size: 2.2rem;
+  font-size: 4.2rem;
+  text-align: left;
   font-weight: 700;
   line-height: 1.2125;
   color: #ffffff;
   font-family: Inter, 'Source Sans Pro';
   flex-shrink: 0;
-} */
+}
 .a-fair-price-in-seconds-mechanics-you-can-trust-next-day-service-at-your-door-CXs {
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 6rem;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.2;

@@ -11,11 +11,11 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <img class="rectangle-20-aEM" src="rectangle-20.png"/>
+      {/* <img class="rectangle-20-aEM" src="rectangle-20.png"/>
       <img class="image-1-8fB" src="image-1.png"/>
-      <div className='rectangle-2-TSZ'></div>
+      <div className='rectangle-2-TSZ'></div> */}
       
-      <Header/>
+      {/* <Header/> */}
       <Home/>
     </div>
   );
