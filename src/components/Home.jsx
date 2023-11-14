@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div className=''>
@@ -16,19 +17,19 @@ export default function Home() {
       <div>
       <img className="group-icon" alt="" src="/group.svg" />
       <div className="how-it-works-parent header-responsiv">
-        <div className="how-it-works">HOW IT WORKS</div>
-        <div className="apply-to-be">APPLY TO BE A MECHANIC</div>
-        <div className="support">SUPPORT</div>
-        <div className="our-service">OUR SERVICE</div>
-        <div className="blog">BLOG</div>
+        <div className="how-it-works" style={{cursor:'pointer'}}><Link style={{textDecoration:'none', color:'white'}} to="/">HOW IT WORKS</Link></div>
+        <div className="apply-to-be" style={{cursor:'pointer'}}><Link style={{textDecoration:'none', color:'white'}} to="/applytobea-mechanic">APPLY TO BE A MECHANIC</Link></div>
+        <div className="support" style={{cursor:'pointer'}}><Link style={{textDecoration:'none', color:'white'}} to="/support">SUPPORT</Link></div>
+        <div className="our-service" style={{cursor:'pointer'}}><Link style={{textDecoration:'none', color:'white'}} to="/our-service">OUR SERVICE</Link></div>
+        <div className="blog" style={{cursor:'pointer'}}><Link style={{textDecoration:'none', color:'white'}} to="/blog">BLOG</Link></div>
       </div>
       </div>
 
       <div>
       <div className="frame-child1" />
       <div className="sing-in-parent">
-        <div className="sing-in">SING IN</div>
-        <div className="get-started">GET STARTED</div>
+        <div className="sing-in" style={{cursor:'pointer'}}><Link style={{textDecoration:'none', color:'white'}} to="/sing-in">SING IN</Link></div>
+        <div className="get-started" style={{cursor:'pointer'}}>GET STARTED</div>
         <div className="group-child" />
       </div>
       </div>
@@ -49,13 +50,14 @@ export default function Home() {
         </div>
         <div className="group-item" />
         <div className="your-car-reg-parent">
-          <div className="your-car-reg">YOUR CAR REG</div>
+        
           <div className="group-inner" />
+          <input className='your-car-reg ' type="text" placeholder='YOUR CAR REG' style={{backgroundColor:'transparent', border:'none', color:'white'}} />
           <img className="vector-icon" alt="" src="/vector.svg" />
         </div>
         <div className="your-postcode-parent">
-          <div className="your-postcode">YOUR POSTCODE</div>
           <div className="group-inner" />
+          <input className='your-postcode' type="text" placeholder='YOUR POSTCODE' style={{backgroundColor:'transparent', border:'none', color:'white'}} />
           <img className="vector-icon1" alt="" src="/vector1.svg" />
         </div>
       </div>
@@ -372,9 +374,9 @@ export default function Home() {
         <div className="rectangle-parent4">
           <div className="group-child123" />
           <img className="vector-icon4" alt="" src="/vector4.svg" />
-          <div className="your-registration-number">
-            Your Registration Number Here
-          </div>
+          
+          <input className='your-registration-number' type="text" placeholder='Your Registration Number Here' style={{backgroundColor:'transparent', border:'none', color:'white'}} />
+          
         </div>
         <div className="rectangle-parent5">
           <div className="group-child123" />
@@ -383,7 +385,8 @@ export default function Home() {
             alt=""
             src="/searchlocation.svg"
           />
-          <div className="your-registration-number">Your Postcode</div>
+          {/* <div className="your-registration-number">Your Postcode</div> */}
+          <input className='your-registration-number' type="text" placeholder='Your Postcode' style={{backgroundColor:'transparent', border:'none', color:'white'}} />
         </div>
       </div>
       <div className="i-dont-know custom-container">I don't know my registration number</div>
@@ -432,8 +435,8 @@ export default function Home() {
         <div className="group-child129" />
         <div className="group-child130" />
         <div className="subscribe-our-blogs">Subscribe Our Blogs</div>
-        <div className="your-e-mail-here">Your E-Mail Here</div>
-        <div className="subscribe-now">SUBSCRIBE NOW</div>
+        <input className='your-e-mail-here' type="text" placeholder='Your E-Mail Here' style={{backgroundColor:'transparent', border:'none', color:'black'}} />
+        <div className="subscribe-now" style={{cursor:'pointer'}}>SUBSCRIBE NOW</div>
       </div>
     </div>
 

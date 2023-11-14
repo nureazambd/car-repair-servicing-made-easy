@@ -1,22 +1,22 @@
-import logo from './logo.svg';
+import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import './App.css';
-import Header from './components/Header';
 import Home from './components/Home';
-
-
-
-
-
-
 function App() {
   return (
     <div className="App">
-      {/* <img class="rectangle-20-aEM" src="rectangle-20.png"/>
-      <img class="image-1-8fB" src="image-1.png"/>
-      <div className='rectangle-2-TSZ'></div> */}
       
-      {/* <Header/> */}
+      <BrowserRouter>
       <Home/>
+      <Routes>
+          <Route path="/" element={""}>
+          <Route path="/applytobea-mechanic" element={""} />
+          <Route path="/support" element={""} />
+          <Route path="/our-service" element={""} />
+          <Route path="/blog" element={""} />
+          <Route path="/sing-in" element={""} />
+          </Route>
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }
