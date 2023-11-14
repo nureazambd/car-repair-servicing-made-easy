@@ -137,17 +137,17 @@
         margin: 0;
       }
       .car-repair-container {
-        position: absolute;
+        /* position: absolute; */
         top: 0;
         left: 0;
-        font-size: 42px;
+        font-size: 26px;
         font-family: var(--font-inter);
       }
       .a-fair-price-container {
         position: absolute;
         top: 136px;
         left: 0;
-        font-size: 15px;
+        font-size: 11px;
       }
       .group-item {
         position: absolute;
@@ -157,7 +157,7 @@
         background-color: rgba(245, 244, 255, 0.17);
         border: 1px solid rgba(255, 255, 255, 0.6);
         box-sizing: border-box;
-        width: 572px;
+        width: 372px;
         height: 59px;
       }
       .your-car-reg {
@@ -176,7 +176,7 @@
         border-radius: var(--br-smi);
         border: 1px solid var(--color-white);
         box-sizing: border-box;
-        width: 254.1px;
+        width: 154.1px;
         height: 36.7px;
       }
       .vector-icon {
@@ -223,7 +223,7 @@
       .your-postcode-parent {
         position: absolute;
         top: 211.5px;
-        left: 305.6px;
+        left: 195.6px;
         width: 254.1px;
         height: 36.7px;
         color: var(--color-gray-100);
@@ -238,7 +238,7 @@
       }
       .ellipse-div {
         position: absolute;
-        top: 364px;
+        top: 764px;
         left: 602px;
         border-radius: 50%;
         background-color: rgba(10, 8, 48, 0.51);
@@ -248,9 +248,9 @@
       .pngwing-1-icon {
         position: absolute;
         top: 149px;
-        right: 21px;
-        width: 390px;
-        height: 288px;
+        right: 11px;
+        width: 240px;
+        height: 148px;
         object-fit: cover;
       }
       .frame-child2 {
@@ -267,24 +267,25 @@
         left: 0;
         border-radius: var(--br-8xs);
         background-color: var(--color-gray-200);
-        width: 215.2px;
-        height: 98.7px;
+        width: 155.2px;
+        height: 78.7px;
       }
       .up-to-48-container {
         position: absolute;
         top: 0;
         left: 57.7px;
         font-weight: 600;
+        font-size: 11px;
         display: inline-block;
-        width: 105px;
-        height: 52.5px;
+        width: 100%;
+        /* height: 52.5px; */
       }
       .group-child3 {
         position: absolute;
         top: 4.2px;
         left: 0;
-        width: 45.1px;
-        height: 45.1px;
+        width: 30.1px;
+        height: 30.1px;
       }
       .up-to-48-cheaper-parent {
         position: absolute;
@@ -304,12 +305,13 @@
       .group-child4 {
         border-radius: var(--br-8xs);
         background-color: var(--color-gray-200);
-        width: 272.9px;
+        width: 155.2px;
+        height: 78.7px;
       }
       .vector-icon2 {
         position: absolute;
-        height: 97.9%;
-        width: 17.98%;
+        height: 31.1px;
+        width: 31.1px;
         top: 1.9%;
         right: 82.02%;
         bottom: 0.19%;
@@ -321,8 +323,9 @@
       .fully-vetted-container {
         position: absolute;
         top: 0;
-        left: 58.8px;
-        font-weight: 600;
+        left: 38.8px;
+        font-weight: 500;
+        font-size: 11px;
         display: inline-block;
         width: 192.1px;
         height: 52.5px;
@@ -340,7 +343,7 @@
       .rectangle-container {
         position: absolute;
         top: 0;
-        left: 245.6px;
+        left: 195.6px;
         width: 272.9px;
         height: 98.7px;
       }
@@ -348,12 +351,13 @@
         left: 0;
         border-radius: var(--br-8xs);
         background-color: var(--color-gray-200);
-        width: 206.8px;
+        width: 155.2px;
+        height: 78.7px;
       }
       .vector-icon3 {
         position: absolute;
-        height: 85.9%;
-        width: 24%;
+        height: 31.1px;
+        width: 31.1px;
         top: 8%;
         right: 76%;
         bottom: 6.1%;
@@ -365,8 +369,9 @@
       .same-or-next-container {
         position: absolute;
         top: 0;
-        left: 59.8px;
-        font-weight: 600;
+        left: 49.8px;
+        font-weight: 500;
+        font-size: 11px;
         display: inline-block;
         width: 128.1px;
         height: 52.5px;
@@ -384,7 +389,7 @@
       .group-div {
         position: absolute;
         top: 0;
-        left: 765.2px;
+        left: 395.2px;
         width: 206.8px;
         height: 98.7px;
       }
@@ -392,12 +397,13 @@
         left: 0;
         border-radius: var(--br-8xs);
         background-color: var(--color-gray-200);
-        width: 185.8px;
+        width: 155.2px;
+        height: 78.7px;
       }
       .group-icon1 {
         position: absolute;
-        height: 85.9%;
-        width: 30.68%;
+        height: 31.1px;
+        width: 31.1px;
         top: 5.9%;
         right: 69.32%;
         bottom: 8.19%;
@@ -410,7 +416,8 @@
         position: absolute;
         top: 0;
         left: 58.8px;
-        font-weight: 600;
+        font-weight: 500;
+        font-size: 11px;
         display: inline-block;
         width: 88.2px;
         height: 52.5px;
@@ -428,53 +435,54 @@
       .rectangle-parent1 {
         position: absolute;
         top: 0;
-        left: 549px;
+        left: 589px;
         width: 185.8px;
         height: 98.7px;
       }
       .group-parent {
         top: 497px;
         left: 26px;
-        width: 100%;
+        /* width: 100%; */
       }
       .book-a-trusted,
       .how-it-works1 {
         position: absolute;
         top: 653px;
-        left: 432px;
+        left: 5px;
       }
       .book-a-trusted {
         top: 713px;
-        left: 87px;
+        left: 5px;
         font-size: var(--font-size-23xl);
       }
       .image-16-icon {
         position: absolute;
         top: 0;
-        left: 77px;
-        width: 103px;
-        height: 85px;
+        left: 0px;
+        width: 60px;
+        height: 60px;
         object-fit: cover;
       }
       .pick-a-date {
         position: absolute;
-        top: 100px;
+        top: 70px;
         left: 0;
-        font-weight: 900;
+        font-weight: 500;
+        font-size: 10px;
       }
       .image-15-icon,
       .image-16-parent {
         position: absolute;
-        top: 800px;
-        left: 384px;
-        width: 257px;
+        top: 950px;
+        left: 164px;
+        width: 100px;
         height: 125px;
       }
       .image-15-icon {
         top: 0;
-        left: 62px;
-        width: 120px;
-        height: 85px;
+        left: 4px;
+        width: 50px;
+        height: 50px;
         object-fit: cover;
       }
       .image-15-parent,
@@ -482,32 +490,34 @@
         position: absolute;
         top: 1px;
         left: 0;
-        width: 244px;
-        height: 125px;
+        width: 100px;
+        height: 25px;
       }
       .image-17-icon {
-        top: 0;
-        left: 57px;
-        width: 108px;
-        height: 87px;
+        top: 3px;
+        left: 37px;
+        width: 60px;
+        height: 60px;
         object-fit: cover;
       }
       .mechanic-comes-to {
         position: absolute;
-        top: 101px;
+        top: 70px;
         left: 0;
-        font-weight: 900;
+        font-weight: 500;
+        font-size: 10px;
       }
       .group-container,
       .image-17-parent {
         position: absolute;
         top: 0;
-        left: 737px;
+        left: 237px;
         width: 221px;
         height: 126px;
+        
       }
       .group-container {
-        top: 799px;
+        top: 949px;
         left: 33px;
         width: 958px;
       }
@@ -537,8 +547,8 @@
       }
       .find-out-more-parent {
         position: absolute;
-        top: 960px;
-        left: 390px;
+        top: 1035px;
+        left: 90px;
         width: 245px;
         height: 56px;
         font-size: var(--font-size-mini);
@@ -2559,7 +2569,7 @@
         top: 800px;
         left: 384px;
         width: 257px;
-        height: 125px;
+        height: 25px;
       }
       .image-15-icon {
         top: 0;
@@ -2585,7 +2595,7 @@
       }
       .mechanic-comes-to {
         position: absolute;
-        top: 101px;
+        top: 1px;
         left: 0;
         font-weight: 900;
       }
@@ -2594,8 +2604,8 @@
         position: absolute;
         top: 0;
         left: 737px;
-        width: 221px;
-        height: 126px;
+        width: 257px;
+        height: 25px;
       }
       .group-container {
         top: 799px;

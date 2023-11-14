@@ -66,7 +66,7 @@ export default function Home() {
       <div className="frame-child2" />
 
       
-      <div className=''>
+      
 
       <div className="group-parent custom-container">
         <div className="rectangle-group">
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </div>
 
-      </div>
+      
 
       <div className='custom-container'>
       <div className="how-it-works1 custom-container">HOW IT WORKS</div>
