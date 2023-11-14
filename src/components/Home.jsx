@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 export default function Home() {
   return (
-    <div style={{marginLeft:'23%', marginRight:'23%'}}>
+    <div className=''>
       
       <div className="rectangle-parent">
       <div className="frame-child" />
@@ -47,10 +47,16 @@ export default function Home() {
           <img className="vector-icon1" alt="" src="/vector1.svg" />
         </div>
       </div>
+      
+      
       <div className="ellipse-div" />
       <img className="pngwing-1-icon" alt="" src="/pngwing-1@2x.png" />
       <div className="frame-child2" />
-      <div className="group-parent">
+
+      
+      <div className=''>
+
+      <div className="group-parent custom-container">
         <div className="rectangle-group">
           <div className="group-child2" />
           <div className="up-to-48-cheaper-parent">
@@ -92,15 +98,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="how-it-works1">HOW IT WORKS</div>
-      <b className="book-a-trusted">
+
+      </div>
+
+      <div className='custom-container'>
+      <div className="how-it-works1 custom-container">HOW IT WORKS</div>
+      <b className="book-a-trusted custom-container">
         Book A Trusted Mechanic In Just A Few Clicks
       </b>
-      <div className="image-16-parent">
+      <div className="image-16-parent custom-container">
         <img className="image-16-icon" alt="" src="/image-16@2x.png" />
         <div className="pick-a-date">{`Pick a date, time & location`}</div>
       </div>
-      <div className="group-container">
+      <div className="group-container custom-container">
         <div className="image-15-parent">
           <img className="image-15-icon" alt="" src="/image-15@2x.png" />
           <div className="pick-a-date">Get an instant price quote</div>
@@ -110,12 +120,15 @@ export default function Home() {
           <div className="mechanic-comes-to">Mechanic comes to you</div>
         </div>
       </div>
-      <div className="find-out-more-parent">
+      <div className="find-out-more-parent custom-container" style={{marginTop:'30px'}}>
         <div className="find-out-more">FIND OUT MORE</div>
         <div className="group-child7" />
         <img className="group-child8" alt="" src="/group-50.svg" />
       </div>
-      <div className="rectangle-parent2">
+
+      </div>
+
+      <div className="rectangle-parent2 custom-container">
         <div className="group-child9" />
         <div className="group-child10" />
         <div className="what-vehicle-type">
@@ -326,8 +339,8 @@ export default function Home() {
         <img className="group-child121" alt="" src="/group-132.svg" />
         <img className="group-child122" alt="" src="/group-131.svg" />
       </div>
-      <div className="what-our-customers">What our customers are saying</div>
-      <div className="image-20-parent">
+      <div className="what-our-customers custom-container">What our customers are saying</div>
+      <div className="image-20-parent custom-container">
         <img className="image-20-icon" alt="" src="/image-20@2x.png" />
         <img className="image-19-icon" alt="" src="/image-19@2x.png" />
         <img className="image-21-icon" alt="" src="/image-21@2x.png" />
@@ -335,15 +348,15 @@ export default function Home() {
         <div className="image-23" />
         <div className="image-24" />
       </div>
-      <b className="book-a-mechanic">Book a mechanic online today</b>
-      <div className="get-an-instant-container">
+      <b className="book-a-mechanic custom-container">Book a mechanic online today</b>
+      <div className="get-an-instant-container custom-container">
         <p className="car-repair">
           Get an instant quote, then book a vetted mechanic to fix your car at
           your home or office.
         </p>
       </div>
       <div className="car-alt" />
-      <div className="group-parent2">
+      <div className="group-parent2 custom-container">
         <div className="rectangle-parent4">
           <div className="group-child123" />
           <img className="vector-icon4" alt="" src="/vector4.svg" />
@@ -361,19 +374,19 @@ export default function Home() {
           <div className="your-registration-number">Your Postcode</div>
         </div>
       </div>
-      <div className="i-dont-know">I don't know my registration number</div>
-      <div className="rectangle-parent6">
+      <div className="i-dont-know custom-container">I don't know my registration number</div>
+      <div className="rectangle-parent6 custom-container">
         <div className="group-child125" />
         <div className="get-my-instant">GET MY INSTANT PRICE</div>
       </div>
-      <div className="vetted-mechanics-save-up-to-50-parent">
+      <div className="vetted-mechanics-save-up-to-50-parent custom-container">
         <div className="vetted-mechanics-save">
           Vetted mechanics Save up to 50% Fast online booking
         </div>
         <img className="group-child126" alt="" src="/group-139.svg" />
       </div>
       <div className="frame-child3" />
-      <div className="group-parent3">
+      <div className="group-parent3 custom-container">
         <img className="group-icon2" alt="" src="/group2.svg" />
         <div className="select-your-car-container">
           <p className="car-repair">
