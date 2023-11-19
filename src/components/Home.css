@@ -1,9 +1,26 @@
+/* @media only screen and (min-width: 0px) and (max-width:500px){
+  
 
-
+} */
+  
   @media only screen and (min-width: 0px) and (max-width:967px) {
 
     .header-responsiv{
         display: none;
+    }
+
+    .footer-show{
+      /* position: absolute; */
+      
+      display:none;
+    }
+    .navbar-view{
+      /* position: absolute; */
+      display: block;
+
+    }
+    .mobile-show{
+      display: block;
     }
     
     .frame-child {
@@ -388,8 +405,8 @@
       .group-child6,
       .group-div {
         position: absolute;
-        top: 0;
-        left: 395.2px;
+        top: 95px;
+        left: 0px;
         width: 206.8px;
         height: 98.7px;
       }
@@ -426,7 +443,7 @@
         position: absolute;
         height: 53.19%;
         width: 79.12%;
-        top: 23.4%;
+        top: 118px;
         right: 10.17%;
         bottom: 23.4%;
         left: 10.71%;
@@ -435,12 +452,12 @@
       .rectangle-parent1 {
         position: absolute;
         top: 0;
-        left: 589px;
+        left: 195px;
         width: 185.8px;
         height: 98.7px;
       }
       .group-parent {
-        top: 497px;
+        top: 427px;
         left: 26px;
         /* width: 100%; */
       }
@@ -448,11 +465,11 @@
       .how-it-works1 {
         position: absolute;
         top: 653px;
-        left: 5px;
+        left: 30px;
       }
       .book-a-trusted {
         top: 713px;
-        left: 5px;
+        left: 30px;
         font-size: var(--font-size-23xl);
       }
       .image-16-icon {
@@ -802,7 +819,7 @@
         position: absolute;
         top: 32px;
         left: 5px;
-        font-size: 18px;
+        font-size: 11px;
       }
       .basic,
       .engineers-report,
@@ -836,8 +853,8 @@
       }
       .price {
         top: 142px;
-        font-size: 18px;
-        font-weight: 900;
+        font-size: 16px;
+        font-weight: 600;
       }
       .approximate-inspection-time {
         top: 267px;
@@ -854,24 +871,34 @@
         left: 0;
       }
       .all-reports-are {
-        top: 19px;
+        top: 49px;
         font-size: var(--font-size-3xs);
+      }
+
+      .new-all-reports-are {
+        position: absolute;
+        top: 25px;
+        font-size: var(--font-size-3xs);
+        width: 216px;
       }
       .report-available-in-3-hours-fr-parent {
         position: absolute;
-        top: 421px;
+        top: 401px;
         left: 16px;
-        width: 336px;
+        width: 216px;
         height: 31px;
       }
       .full-control-of,
       .road-test-parent {
         position: absolute;
-        top: 501px;
+        top: 491px;
         left: 16px;
       }
+      .new-full-control-of{
+        width: 216px;
+      }
       .road-test-parent {
-        top: 572px;
+        top: 562px;
         width: 231px;
         height: 31px;
       }
@@ -882,13 +909,14 @@
       }
       .plate-changes-keeper {
         position: absolute;
-        top: 18px;
+        top: 22px;
         left: 0;
         font-size: var(--font-size-3xs);
+        width: 216px;
       }
       .free-vehicle-data-parent {
         position: absolute;
-        top: 729px;
+        top: 719px;
         left: 16px;
         width: 227px;
         height: 30px;
@@ -936,7 +964,7 @@
       }
       .bodywork-inspection-parent {
         position: absolute;
-        top: 1509px;
+        top: 1499px;
         left: 16px;
         width: 335px;
         height: 30px;
@@ -971,18 +999,20 @@
       .max-90-minutes-container {
         position: absolute;
         top: 276px;
-        left: 482px;
-        font-weight: 600;
+        left: 94%;
+        font-weight: 300;
+        font-size: 9px;
       }
       .max-120-minutes-container,
       .max-300-minutes-container {
         position: absolute;
         top: 276px;
-        left: 674px;
-        font-weight: 600;
+        left: 82%;
+        font-weight: 300;
+        font-size: 9px;
       }
       .max-300-minutes-container {
-        left: 772px;
+        left: 70%;
       }
       .div,
       .div1,
@@ -991,28 +1021,33 @@
       .max-70-minutes-container {
         position: absolute;
         top: 276px;
-        left: 589px;
-        font-weight: 600;
+        left: 60%;
+        font-weight: 300;
+        font-size: 9px;
       }
       .div,
       .div1,
       .div2,
       .div3 {
         top: 395px;
-        left: 500px;
-        font-size: var(--font-size-xl);
+        left: 60%;
+        /* font-size: var(--font-size-xl); */
+        font-size: 12px;
       }
       .div1,
       .div2,
       .div3 {
-        left: 590px;
+        left: 70%;
+        font-size: 12px;
       }
       .div2,
       .div3 {
-        left: 693px;
+        left: 83%;
+        font-size: 12px;
       }
       .div3 {
-        left: 782px;
+        left: 92%;
+        font-size: 12px;
       }
       .group-child39,
       .group-child40,
@@ -1773,9 +1808,9 @@
       .image-20-icon,
       .image-21-icon {
         position: absolute;
-        top: 15px;
+        top: 10px;
         /* left: 341px; */
-        left: 150px;
+        left: 37%;
         border-radius: var(--br-7xs);
         /* width: 216px; */
         width: 90px;
@@ -1785,10 +1820,10 @@
       }
       .image-19-icon,
       .image-21-icon {
-        left: 14px;
+        left: 5%;
       }
       .image-21-icon {
-        left: 278px;
+        left: 68%;
       }
       .image-22,
       .image-23,
@@ -1796,7 +1831,7 @@
         position: absolute;
         top: 0;
         /* left: 671.6px; */
-        left: 290px;
+        left: 68%;
         border-radius: var(--br-7xs);
         border: 1px solid var(--color-white);
         box-sizing: border-box;
@@ -1810,17 +1845,17 @@
       .image-23,
       .image-24 {
         /* left: 355.6px; */
-        left: 160px;
+        left: 37%;
       }
       .image-24 {
-        left: 29.6px;
+        left: 5%;
       }
       .image-20-parent {
         position: absolute;
         top: 3268px;
         left: 20px;
-        /* width: 890.7px;
-        height: 263.7px; */
+        width: 100%;
+        height: 263.7px;
       }
       .book-a-mechanic {
         position: absolute;
@@ -1853,7 +1888,7 @@
         border-radius: var(--br-5xs);
         border: 1.5px solid var(--color-white);
         box-sizing: border-box;
-        width: 248px;
+        width: 80%;
         height: 52px;
       }
       .vector-icon4 {
@@ -1877,9 +1912,9 @@
       }
       .rectangle-parent4 {
         position: absolute;
-        top: 0;
+        top: -30px;
         left: 0;
-        width: 448px;
+        width: 100%;
         height: 52px;
       }
       .search-location-icon {
@@ -1890,11 +1925,18 @@
         height: 31px;
         overflow: hidden;
       }
-      .rectangle-parent5 {
+      /* .rectangle-parent5 {
         position: absolute;
         top: 0;
         left: 282px;
         width: 448px;
+        height: 52px;
+      } */
+      .rectangle-parent5 {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
         height: 52px;
       }
       .group-parent2,
@@ -1905,7 +1947,7 @@
       .group-parent2 {
         top: 3549px;
         left: 47px;
-        width: 930px;
+        width: 100%;
         height: 52px;
         color: var(--color-gray-300);
       }
@@ -2089,8 +2131,9 @@
         font-size: 19px;
         font-weight: 900;
       }
-      .group-parent3 {
+      /* .group-parent3 {
         position: absolute;
+        position:relative;
         height: 5.21%;
         width: 95.02%;
         top: 93.46%;
@@ -2098,24 +2141,36 @@
         bottom: 1.33%;
         left: 2.54%;
         font-size: var(--font-size-8xl);
-      }
+      } */
       .rectangle-parent {
         position: relative;
         background-color: var(--color-white);
         width: 100%;
-        height: 4280px;
+        /* height: 4280px; */
+        height: 3840px;
         overflow: hidden;
         text-align: left;
         font-size: var(--font-size-2xl);
         color: var(--color-white);
         font-family: var(--font-lato);
       }
-  }
+  
+    }
   @media only screen and (min-width: 968px) {
     /* For desktop: */
+    .desktop-show{
+      display: none;
+    }
     .custom-container{
-        margin-left: 23%;
-        margin-right: 23%;
+      margin-left: 23%;
+      margin-right: 23%; 
+  }
+
+    .mobile-show{
+      display: none;
+    }
+    .navbar-view{
+      display: none;
     }
     .frame-child {
         position: absolute;
@@ -2604,7 +2659,7 @@
       }
       .mechanic-comes-to {
         position: absolute;
-        top: 1px;
+        top: 100px;
         left: 0;
         font-weight: 900;
       }
@@ -3873,7 +3928,7 @@
       .image-20-icon,
       .image-21-icon {
         position: absolute;
-        top: 15px;
+        top: 18px;
         left: 341px;
         border-radius: var(--br-7xs);
         width: 216px;

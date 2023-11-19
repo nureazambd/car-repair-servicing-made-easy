@@ -3,7 +3,7 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 export default function Home() {
   return (
-    <div className=''>
+    <div className=' '>
       
       <div className="rectangle-parent">
       <div className="frame-child" />
@@ -69,7 +69,7 @@ export default function Home() {
 
       
       
-
+    
       <div className="group-parent custom-container">
         <div className="rectangle-group">
           <div className="group-child2" />
@@ -205,12 +205,12 @@ export default function Home() {
               All reports are available securely in your account
             </div>
           </div>
-          <div className="full-control-of">
+          <div className="full-control-of new-full-control-of">
             Full Control of your booking from your account
           </div>
           <div className="road-test-parent">
             <div className="report-available-in">Road test</div>
-            <div className="all-reports-are">
+            <div className="new-all-reports-are">
               Basic – 10 minutes. Standard, Premium – 15 minutes
             </div>
           </div>
@@ -400,8 +400,10 @@ export default function Home() {
         </div>
         <img className="group-child126" alt="" src="/group-139.svg" />
       </div>
-      <div className="frame-child3" />
-      <div className="group-parent3 custom-container">
+      <div className="frame-child3 footer-show" />
+      <div className="group-parent3 footer-show custom-container">
+
+        
         <img className="group-icon2" alt="" src="/group2.svg" />
         <div className="select-your-car-container">
           <p className="car-repair">
@@ -414,6 +416,9 @@ export default function Home() {
           </p>
         </div>
         <img className="group-child127" alt="" src="/group-142.svg" />
+        
+        
+        <div>
         <div className="services">SERVICES</div>
         <div className="exterior-detailing-interior-container">
           <p className="exterior-detailing">Exterior Detailing</p>
@@ -423,6 +428,8 @@ export default function Home() {
           <p className="exterior-detailing">Electrical Repair</p>
           <p className="car-repair">Break Service</p>
         </div>
+        </div>
+
         <div className="information">INFORMATION</div>
         <div className="hellomymechanicmatecom-0137-parent">
           <div className="hellomymechanicmatecom-0137">

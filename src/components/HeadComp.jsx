@@ -1,39 +1,35 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Home.css'
+
 export default function HeadComp() {
   return (
-    <div>
-        <div className="rectangle-parent-head">
-      {/* <div className="frame-child" /> */}
-      {/* <img className="frame-item" alt="" src="/rectangle-20@2x.png" />
-      <img className="image-1-icon" alt="" src="/image-1@2x.png" /> */}
-      {/* <div className="frame-inner" /> */}
-      <div className="rectangle-div header-responsiv" />
-      
-      <div className=''>
-
-      <div>
-      <img className="group-icon" alt="" src="/group.svg" />
-      <div className="how-it-works-parent header-responsiv">
-        <div className="how-it-works">HOW IT WORKS</div>
-        <div className="apply-to-be">APPLY TO BE A MECHANIC</div>
-        <div className="support">SUPPORT</div>
-        <div className="our-service">OUR SERVICE</div>
-        <div className="blog">BLOG</div>
-      </div>
-      </div>
-
-      <div>
-      <div className="frame-child1" />
-      <div className="sing-in-parent">
-        <div className="sing-in">SING IN</div>
-        <div className="get-started">GET STARTED</div>
-        <div className="group-child" />
-      </div>
-      </div>
-
-      </div>
-    </div>
+    <div className='navbar-view'>
+      {/* className="bg-body-tertiary" */}
+        <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#18144e'}}>
+      <Container>
+        <Navbar.Brand href="#home" style={{color:'white'}}>Car Repair & Servicing</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor:'white'}} />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#features" style={{color:'white'}}>HOW IT WORKS</Nav.Link>
+            <Nav.Link href="#pricing" style={{color:'white'}}>APPLY TO BE A MECHANIC</Nav.Link>
+            <Nav.Link href="#pricing" style={{color:'white'}}>SUPPORT</Nav.Link>
+            <Nav.Link href="#pricing" style={{color:'white'}}>OUR SERVICE</Nav.Link>
+            <Nav.Link href="#pricing" style={{color:'white'}}>BLOG</Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link href="#deets" style={{color:'white'}}>SING IN</Nav.Link>
+            <Nav.Link eventKey={2} href="#memes" style={{color:'white'}}>
+              GET STARTED
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     </div>
   )
 }
